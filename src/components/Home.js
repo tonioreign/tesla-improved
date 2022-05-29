@@ -6,6 +6,7 @@ function Home() {
     return (
         <Container>
             <Section
+                id="model-3"
                 title="Model 3"
                 description="Order Online for Touchless Delivery"
                 backgroundImg="model-3.jpg"
@@ -13,6 +14,7 @@ function Home() {
                 rightButton="existing inventory"
             />
             <Section
+                id="model-y"
                 title="Model Y"
                 description="Order Online for Touchless Delivery"
                 backgroundImg="model-y.jpg"
@@ -20,6 +22,7 @@ function Home() {
                 rightButton="existing inventory"
             />
             <Section
+                id="model-s"
                 title="Model S"
                 description="Order Online for Touchless Delivery"
                 backgroundImg="model-s.jpg"
@@ -27,6 +30,7 @@ function Home() {
                 rightButton="existing inventory"
             />
             <Section
+                id="model-x"
                 title="Model X"
                 description="Order Online for Touchless Delivery"
                 backgroundImg="model-x.jpg"
@@ -34,6 +38,7 @@ function Home() {
                 rightButton="existing inventory"
             />
             <Section
+                id="solar-panels"
                 title="Solar Panels"
                 description="Lowest Cost Solar Panels in America"
                 backgroundImg="solar-panel.jpg"
@@ -41,6 +46,7 @@ function Home() {
                 rightButton="learn more"
             />
             <Section
+                id="solar-roof"
                 title="Solar Roof"
                 description="Produce Clean Energy From Your Roof"
                 backgroundImg="solar-roof.jpg"

@@ -11,17 +11,17 @@ function Header() {
             </a>
 
             <Menu>
-                <a href="#">Model S</a>
+                <a href="#model-s">Model S</a>
 
-                <a href="#">Model 3</a>
+                <a href="#model-3">Model 3</a>
 
-                <a href="#">Model X</a>
+                <a href="#model-x">Model X</a>
 
-                <a href="#">Model Y</a>
+                <a href="#model-y">Model Y</a>
 
-                <a href="#">Solar Roof</a>
+                <a href="#solar-roof">Solar Roof</a>
 
-                <a href="">Solar Panels</a>
+                <a href="#solar-panels">Solar Panels</a>
             </Menu>
 
             <RightMenu>
@@ -106,6 +106,12 @@ const Menu = styled.div`
     a {
         font-weight: 600;
         padding: 8px 12px;
+        transition: background 0.2s ease-in;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.06);
+            border-radius: 12px;
+        }
     }
 
     @media (max-width: 968px) {
@@ -120,6 +126,12 @@ const RightMenu = styled.div`
     p {
         font-weight: 600;
         padding: 8px 12px;
+        transition: background 0.2s ease-in;
+
+        &:hover {
+            background: rgba(0, 0, 0, 0.06);
+            border-radius: 12px;
+        }
     }
 
     p {
